@@ -1,7 +1,7 @@
 .navbar{
-    padding: 0px 30px;
-    margin: 0px 0;
-    /*border-radius: 50px;*/
+    padding: 0px 75px;
+    /*margin: 0px 0px;
+    border-radius: 35px;*/
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -23,8 +23,8 @@
 .navbar-right{
     display: flex;
     align-items: right;
-    gap: 5px;
-    height: 35px;
+    gap: 15px;
+    height:30px;
 }
 
 .navbar button{
@@ -35,9 +35,37 @@
     border-radius: 30px;
     padding: 0px 10px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .navbar button:hover{
     background: #fcf9f7;
     color: #591b0d;
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #fcf9f7;
+}
+
+.navbar li{
+    cursor: pointer;
+}
+
+.navbar-search-icon{
+    position: relative;
+}
+
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 8px;
+    min-height: 8px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -4px;
+    right: -8px;
+}
+
+.cart-icon{
+    height: 28px;
 }
