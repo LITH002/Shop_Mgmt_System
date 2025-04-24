@@ -1,28 +1,28 @@
 .header{
-    height: 60vw;
+    height: 50vw;
     /* width: 85vw; */
-    margin: 50px auto;
-    background: url('header.png') no-repeat;
+    margin: 70px auto;
+    background: url('header.svg') no-repeat;
     background-size: contain;
     position: relative;
     border-radius: 20px;
 }
 
 .header-contents{
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 1.5vw;
-    max-width: 70%;
-    top: 7%;
-    left: 5vw;
+    max-width: 40%;
+    bottom: 35%;
+    left: 6vw;
     animation:fadeIn 2s;
 }
 
 .header-contents h1{
     font-weight: 500;
-    color: #fcf9f7;
+    color: white;
     font-size: max(5vw, 25px);
 }
 
