@@ -22,6 +22,7 @@ import facebook from './Facebook.svg';
 import whatsapp from './WhatsApp.svg';
 import location from './Location.svg';
 import cross_icon from './cross_icon.svg';
+import Dum_BPowder_50g from './Dum_B.Powder_50g.jpg';
 
 const assets = {
     logo,
@@ -47,7 +48,8 @@ const assets = {
     facebook,
     whatsapp,
     location,
-    cross_icon
+    cross_icon,
+    Dum_BPowder_50g
 };
 
 export const category_list = [
